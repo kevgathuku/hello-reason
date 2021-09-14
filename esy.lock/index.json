@@ -1,5 +1,5 @@
 {
-  "checksum": "659c27cead860d113ee60f043485204a",
+  "checksum": "bd8d75ffef937ea2c4fa6a86d7f2effe",
   "root": "hello-reason@link-dev:./package.json",
   "node": {
     "refmterr@3.3.2@d41d8cd9": {
@@ -49,12 +49,13 @@
       "dependencies": [
         "ocaml@4.10.2000@d41d8cd9", "@reason-native/pastel@0.3.0@d41d8cd9",
         "@reason-native/console@0.1.0@d41d8cd9",
-        "@opam/ocaml-lsp-server@opam:1.4.1@cd85c376",
         "@opam/dune@opam:2.9.1@1e504822", "@esy-ocaml/reason@3.7.0@d41d8cd9"
       ],
       "devDependencies": [
         "refmterr@3.3.2@d41d8cd9", "@reason-native/rely@3.2.1@d41d8cd9",
-        "@opam/odoc@opam:1.5.3@29f53af8", "@opam/merlin@opam:3.6.1@b2fb327d"
+        "@opam/odoc@opam:1.5.3@29f53af8",
+        "@opam/ocaml-lsp-server@opam:1.4.1@cd85c376",
+        "@opam/merlin@opam:3.6.1@b2fb327d"
       ]
     },
     "@reason-native/rely@3.2.1@d41d8cd9": {

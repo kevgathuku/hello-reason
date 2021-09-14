@@ -31,8 +31,9 @@
   },
   "devDependencies": {
     "@opam/merlin": "*",
+    "@opam/ocaml-lsp-server": "1.4.1",
+    "@opam/odoc": "*",
     "@reason-native/rely": "*",
-    "refmterr": "*",
-    "@opam/odoc": "*"
+    "refmterr": "*"
   }
 }
