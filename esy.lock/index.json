@@ -1,5 +1,5 @@
 {
-  "checksum": "bd8d75ffef937ea2c4fa6a86d7f2effe",
+  "checksum": "f1045787afd69a2e20a90c3c5ec60c71",
   "root": "hello-reason@link-dev:./package.json",
   "node": {
     "refmterr@3.3.2@d41d8cd9": {
@@ -20,6 +20,20 @@
         "@opam/atdgen@opam:2.2.1@6ace3080",
         "@esy-ocaml/reason@3.7.0@d41d8cd9"
       ],
+      "devDependencies": []
+    },
+    "refmt@1.13.7@d41d8cd9": {
+      "id": "refmt@1.13.7@d41d8cd9",
+      "name": "refmt",
+      "version": "1.13.7",
+      "source": {
+        "type": "install",
+        "source": [
+          "archive:https://registry.npmjs.org/refmt/-/refmt-1.13.7.tgz#sha1:9ff7c549aeb0c0b3e6fa92a694ac7e467dfacb9a"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [],
       "devDependencies": []
     },
     "ocaml@4.10.2000@d41d8cd9": {
@@ -52,7 +66,8 @@
         "@opam/dune@opam:2.9.1@1e504822", "@esy-ocaml/reason@3.7.0@d41d8cd9"
       ],
       "devDependencies": [
-        "refmterr@3.3.2@d41d8cd9", "@reason-native/rely@3.2.1@d41d8cd9",
+        "refmterr@3.3.2@d41d8cd9", "refmt@1.13.7@d41d8cd9",
+        "@reason-native/rely@3.2.1@d41d8cd9",
         "@opam/odoc@opam:1.5.3@29f53af8",
         "@opam/ocaml-lsp-server@opam:1.4.1@cd85c376",
         "@opam/merlin@opam:3.6.1@b2fb327d"
