@@ -23,10 +23,11 @@
     "doc": "esy dune build @doc"
   },
   "dependencies": {
+    "@esy-ocaml/reason": ">= 3.6.0 < 4.0.0",
     "@opam/dune": ">=2.6",
+    "@opam/graphics": "5.1.2",
     "@reason-native/console": "*",
     "@reason-native/pastel": "*",
-    "@esy-ocaml/reason": ">= 3.6.0 < 4.0.0",
     "ocaml": "4.10.x"
   },
   "devDependencies": {
